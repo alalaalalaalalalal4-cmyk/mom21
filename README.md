@@ -1,6 +1,6 @@
 # Site de Aniversário da Mamãe ❤️
 
-Este é um site elegante e responsivo criado para celebrar o aniversário da sua mãe.
+
 
 ## Como usar localmente
 1. Basta abrir o arquivo `index.html` em qualquer navegador (Chrome, Edge, Firefox, etc).
