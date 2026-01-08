@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Mãe! ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="title">Parabéns, Mãe!</h1>
+            <p class="subtitle">Celebrando a mulher mais incrível do mundo</p>
+            <div class="scroll-indicator">
+                <span>Role para ver mais</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="main-quote">
+                "Uma mãe é alguém que pode ocupar o lugar de todos os outros, mas cujo lugar ninguém mais pode ocupar."
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Nossos Momentos</h2>
+            <div class="gallery-grid" id="photo-gallery">
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_0.jpg" alt="Vitor e sua mãe">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_1.jpg" alt="Lembrança especial">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_2.jpg" alt="Momento na praia">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_3.jpg" alt="Sorrisos">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_4.jpg" alt="Amor de mãe e filho">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/mae_vitor_5.jpg" alt="Celebração em família">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="message-section">
+        <div class="container">
+            <div class="message-card">
+                <h2>Uma Mensagem Pra Você</h2>
+                <p>Mãe, obrigado por ser minha base, minha inspiração e meu porto seguro. Hoje celebramos não apenas o
+                    seu nascimento, mas a luz que você traz para nossas vidas todos os dias.</p>
+                <p>Que seu dia seja tão lindo quanto o seu coração!</p>
+                <div class="signature">Com muito amor, seu filho Vitor ❤️</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gift-section" id="gift">
+        <div class="container">
+            <h2 class="section-title">Um Presente Especial</h2>
+            <div class="gift-container">
+                <div class="gift-box" id="open-gift">
+                    <div class="gift-lid"></div>
+                    <div class="gift-body"></div>
+                    <div class="gift-text">Clique para abrir sua surpresa! 🎁</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal para os Vídeos -->
+    <div class="video-modal" id="video-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-wrapper">
+                <video id="gift-video" controls>
+                    <source src="" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <div class="video-navigation">
+                <button id="prev-video" class="nav-btn"><i class="fas fa-chevron-left"></i> Anterior</button>
+                <button id="next-video" class="nav-btn">Próximo <i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Feito com amor para a melhor mãe do mundo</p>
+        <p>&copy; 2026 - Celebrando a Vida</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
