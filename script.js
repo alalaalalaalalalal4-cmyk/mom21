@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.getElementById('next-video');
 
     let currentVideoIndex = 0;
-    let videoList = ['video 1.mp4', 'video 2.mp4'];
+    let videoList = ['video 1.mp4', 'video 2.mp4', 'video 3.mp4', 'video 4.mp4'];
 
     function updateVideo() {
         if (videoList.length > 0) {
